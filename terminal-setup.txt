@@ -1,0 +1,15 @@
+1) install cuda toolkit
+
+sudo apt install nvidia-cuda-toolkit  
+
+2) install cudnn
+
+sudo dpkg -i libcudnn7_7.6.5.32-1+cuda10.1_amd64.deb
+
+3) check cuda version
+
+nvcc -V
+
+4) check memory
+
+nvidia-smi
